@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+
+
+/* HOME */
+.gris{
+    background-image: linear-gradient(to right, #0D423DE5, #0CC7B5E5);
+    margin-top: 100px;
+}
+.bottn{
+    margin: 50px 0;
+}
+.gris p{
+    margin-top: 50px;
+}
+.photo{
+    height: 550px;
+    background-image: url(images/baniere.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Programme */
+#diplomes, #activites{
+    background-color: #F44336;
+}
+.list-prog{
+    background-color: #009688;
+    padding: 80px;
+}
+/* Diplomes */
+.dip1{
+    display: flex;
+    gap: 2%;
+}
+.dip1 i{
+    width: 50px;
+}
+.diplom{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+/* Activités */
+.activites  {
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+    
+}
+.activites img{
+    width: 100%;
+}
+.imgCard{
+    height: 100px;
+    width: 120px;
+    margin:  10px auto;
+}
+li{
+    list-style: none;
+}
+
+
+/* RESPONSIVE */
+
+@media screen AND (max-width: 991px) {
+    /* Custom CSS */
+    section{
+        padding: 30px 0;
+        
+    }
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    /* ______________*/
+    .photo{
+        display: none;
+    }
+    .bottn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .activites  {
+        gap: 20px;
+}
+  
+}
+
+
+@media screen AND (max-width: 767px) {
+    h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    P{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    
+}
