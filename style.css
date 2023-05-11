@@ -83,8 +83,17 @@ li{
         font-size: 20px;
     }
     /* ______________*/
+    .rowWagane{
+        flex-direction: column;
+    }
+    header{
+        margin-bottom: 50px;
+    }
     .photo{
-        display: none;
+        background-size: 85%;
+        margin-left: 15%;
+        margin-bottom: 0;
+        height: 400px;
     }
     .bottn{
         display: flex;
